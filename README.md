@@ -27,8 +27,8 @@ Mac (brew): install git
 ## Commits
 Informação de alteração
 - após testado todo seu código
--git add *
--git commit -m 'mensagem'
+- git add *
+- git commit -m 'mensagem'
 
 ## Gitflow
 fluxo do git
