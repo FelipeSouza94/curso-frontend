@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<html>
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>	
+	<body>
+		<header>
+			<h2>Curso Front-end- HTML</h2>
+		</header>
+	
+		<section>
+			<nav>
+				<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="./06-formularios.html">Contato</a></li>
+				</ul>
+			</nav>
+			<article>
+					<h1>Título Artigo</h1>
+			
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut molestie metus, id elementum lectus. Sed accumsan, purus non scelerisque commodo, tellus orci porta odio, id faucibus metus felis pretium eros. Praesent lobortis aliquet justo eget auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis porttitor massa, et mollis tellus. Donec eu tempus mauris. Vivamus consequat felis a nibh lacinia, nec egestas dui sagittis. Pellentesque interdum leo id venenatis commodo. Ut cursus finibus gravida. Nulla ac dignissim ante, sit amet porttitor leo. Donec at tempor diam.</p>
+
+					<p>Sed id volutpat mauris, quis cursus eros. Etiam vel cursus tortor. Etiam dignissim mi sit amet faucibus varius. Fusce rutrum commodo diam pharetra finibus. Aliquam mauris purus, varius ut congue at, fringilla id nibh. Mauris venenatis ornare pharetra. Nunc sit amet sapien at massa mollis pharetra. Donec nunc odio, accumsan non viverra ac, suscipit sit amet dolor.</p>
+
+			</article>		
+
+		</section>
+		<footer>
+			<p>Desenvolvido por Felipe</p>
+		</footer>
+	</body>
+
+</html>

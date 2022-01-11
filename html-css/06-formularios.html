@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<html>
+	<head>
+		<title>HTML - Formulario Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./CSS/graficos.css">
+	</head>	
+	<body>
+		<header>
+			
+			<div id="grafico-01">
+				<img src="./images/coffee-square.jpg" alt="café">
+			</div>
+		</header>
+	
+		<section>
+			<nav>
+				<ul class="navegacao">
+						<li><a href="modulo-08-exercicio.html">INICIO</a></li>
+						<li><a href="04-tabelas.html">CARDAPIO</a></li>
+						<li><a href="03-Nossa Historia.html">NOSSA HISTORIA</a></li>
+				</ul>
+			</nav>
+			<article>					
+					<p>Nos deixe uma Mensagem.</p>
+				<form method="post">	
+						<div>
+							<label for="nome">Nome</label>
+							<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+						</div>
+						
+						<div>
+							<label for="email">E-mail</label>
+							<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+						</div>
+						
+						<div>
+							<label for="mensagen">Mensagem</label>
+							<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+						</div>
+				
+						<div>
+							<p>
+								<label for="mensagen">Qual dunets você prefere.</label>
+								<input type="radio" name="linguagens" value="HTML"> NUTELLA
+								<input type="radio" name="linguagens" value="CSS"> BAUNILHA
+								<input type="radio" name="linguagens" value="Javascript">MORANGO
+							</p>						
+						</div>
+
+						<div>
+							<p>
+								<label for="mensagen">Quais  você ja experimentou.</label>
+								<input type="checkbox" name="linguagens" value="HTML"> NUTELLA
+								<input type="checkbox" name="linguagens" value="CSS"> BAUNILHA
+								<input type="checkbox" name="linguagens" value="Javascript">MORANGO
+							</p>						
+						
+						</div>
+							<div>
+								<label>Qual sabor favorito</label>
+								<select>									
+									<option value="verde" selected>NUTELLA</option>
+									<option value="vermelho">BAUNILHA</option>
+									<option value="amarelo">MORANGO</option>
+								</select>					
+							</div>
+						
+						<div>
+								<input type="submit">
+						</div>	
+				</form>	
+			</article>		
+		</section>
+		<footer>
+			<p>Desenvolvido por Felipe</p>
+		</footer>
+	</body>
+
+</html>
