@@ -35,3 +35,15 @@ Informação de alteração
 
 ## Gitflow
 fluxo do git
+
+
+### Branchs
+são retificações / versões paralelas
+
+-  mais / master (vai para produção, quando o projeto e publicado)
+- develop
+-  DOD (definition of done): criteiro de aceite
+- versionamento 
+
+### Merge
+mescla de brachs
