@@ -44,3 +44,8 @@ são retificações / versões paralelas
 - develop
 -  DOD (definition of done): criteiro de aceite
 - versionamento 
+
+git checkout -b dev (cria uma branch)
+git checkout main    (mudar de branch)
+### Merge
+mescla de brachs
